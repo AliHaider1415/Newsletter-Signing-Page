@@ -1,0 +1,82 @@
+body{
+   margin:0px;
+   padding:0px;
+    background-color: rgb(19, 19, 100);
+    font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; 
+font-size: 2rem;  
+}
+
+#main{
+    background: white;
+    width: 70%;
+    max-width: 1090px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 60px;
+    box-shadow: 5px 5px 10px gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10%;
+}
+
+#news_img{
+    width: 40%; 
+    height: auto;
+    max-height: 30em;
+    margin-right: 5%;
+}
+
+#sign{
+    width:60%;
+}
+@media (min-width: 768px) {
+    #sign {
+      margin-left: 10%; /* Adjust the margin value as per your needs */
+    }
+  }
+#sign h1{
+    font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+    font-size: 4rem;
+}
+#sign .tick {  
+    margin-right:15px; /* Adjust the margin as needed */
+}
+
+#mail{
+    margin-top: 20px;
+    height: 50px;
+    width: 97%;
+    max-width: 345px;
+    border-radius: 8px;
+    font-size: 22px; 
+}
+#mail::placeholder{
+    font-size: 15px;
+}
+
+#mail_btn{
+    margin-bottom: 10%;
+    margin-top: 20px;
+    height: 50px;
+    width: 97%;
+    max-width: 345px;
+    border-radius: 8px;
+    background-color: rgb(19, 19, 100);
+    color: white;
+    font-size: 15px;
+    font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
