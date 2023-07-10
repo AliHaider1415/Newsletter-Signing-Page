@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="Newsletter.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Montserrat:ital,wght@0,300;1,300&family=Roboto+Slab:wght@500&family=Roboto:wght@700&display=swap');
+      </style>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400&family=Montserrat:ital,wght@0,300;1,300&family=Roboto+Slab:wght@500&family=Roboto:wght@400;700&display=swap');
+      </style>
+</head>
+<body>
+    <div id = "main">
+        <div id="sign">
+            <h1>Stay updated!</h1>
+            <p>Join 60,000+ product managers receiving monthly updates on:</p>
+            <p><img src="icon-list.svg" alt="" class="tick"> Product discovery and building what matters</p>
+            <p><img src="icon-list.svg" alt="" class="tick"> Measuring to ensure updates are a success</p>
+            <p><img src="icon-list.svg" alt="" class="tick"> And much more!</p>
+            <form id="newsletterForm">
+            <br><label for="mail" style = "font-size: 15px;">Email Address</label><span id = "error_msg" style = "font-size: 15px; margin-left: 160px; color: rgba(255, 0, 0, 0.6);"></span><br>
+            <input id = "mail"type="email" placeholder="email@company.com">
+            <button id = "mail_btn" type = "submit">Subscribe to monthly newsletter</button>
+        </form>
+        </div>
+          
+        <img id = "news_img"src="illustration-sign-up-desktop.svg">
+        
+    </div>
+
+    <script src="Newsletter.js"></script>
+</body>
+</html>
